@@ -1,7 +1,7 @@
 /*global Ultraviolet*/
 self.__uv$config = {
     prefix: '/service/',
-    bare: '/bare/',
+    bare: 'https://bare-server-node-1.crimsonoox.repl.co',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/uv.handler.js',
